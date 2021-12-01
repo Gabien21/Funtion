@@ -16,13 +16,13 @@ double tinhCau2(int n);
 //Khai bao ham tinh to hop chap k cua n
 double toHop(int n, int k);
 
-int main()
+int main() 
 {
+	
 	int n, k;
 	nhap(n, k);
 	//Cau 1: S1 = 1 + 1/2 + �c + 1/n
 	cout << "Ket qua cau 1 la: " << tongNghichDao(n) << endl;
-
 	//Cau 2: S2 = 2/1! - 3/2! + 4/3! - 5/4! + �c - (2n+1)/2n!
 	cout << "Ket qua cau 2 la: " << tinhCau2(n) << endl;
 
